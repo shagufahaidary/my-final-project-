@@ -104,7 +104,7 @@ class CryptoCurrency:
         self.price = price
 # Fetch Cryptocurrency Prices Using API
 def fetch_crypto_prices():
-    api_url = "https://api.coingecko.com/api/v3/simple/price?ids=bitcoin,ethereum,litecoin&vs_currencies=usd"
+    api_url = " FOR SOME PRIVACY REASON THE LINK HAS BEEN REMOVED "
     response = requests.get(api_url)
     if response.status_code == 200:
         data = response.json()
